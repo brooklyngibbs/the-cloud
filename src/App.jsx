@@ -32,9 +32,9 @@ function App() {
         href="https://coff.ee/offlinecrush"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-3 right-3 sm:bottom-4 sm:right-4 bg-amber-100 hover:bg-amber-200 text-amber-800 px-2 py-1 sm:px-3 sm:py-2 rounded-full text-xs font-mono shadow-md hover:shadow-lg transition-all duration-300 border border-amber-200 flex items-center gap-1 z-50"
+        className="rounded-full text-xs font-mono transition-all duration-300 items-center gap-1 z-50"
       >
-        ☕ buy me coffee
+        ☕ 
       </a>
     </>
   )
