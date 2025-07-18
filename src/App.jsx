@@ -24,7 +24,7 @@ function App() {
 
   return (
     <>
-      <div className="min-h-screen flex flex-col items-center justify-center gap-4 px-4 relative">
+      <div className="min-h-screen flex flex-col items-center justify-center gap-2 sm:gap-4 px-2 sm:px-4 relative">
         <TheCloud mood={mood} />
         <CloudInput onSubmit={handleInput} advice={advice} isSubmitted={isSubmitted} mood={mood} onReset={handleReset} />
       </div>
@@ -32,9 +32,9 @@ function App() {
         href="https://coff.ee/offlinecrush"
         target="_blank"
         rel="noopener noreferrer"
-        className=""
+        className="fixed bottom-3 right-3 sm:bottom-4 sm:right-4 bg-amber-100 hover:bg-amber-200 text-amber-800 px-2 py-1 sm:px-3 sm:py-2 rounded-full text-xs font-mono shadow-md hover:shadow-lg transition-all duration-300 border border-amber-200 flex items-center gap-1 z-50"
       >
-        ☕ hehe
+        ☕ buy me coffee
       </a>
     </>
   )

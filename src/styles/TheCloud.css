@@ -332,3 +332,34 @@
       filter: blur(0px);
     }
   }
+
+/* ----------------------------------------
+   Responsive Tweaks – Small Screens
+-----------------------------------------*/
+@media (max-width: 640px) {
+  .cloud-container {
+    width: 80vw;
+    margin-bottom: 4rem;
+  }
+
+  .rain-wrapper,
+  .snow-wrapper {
+    width: 80%;
+    top: 85%;
+  }
+
+  .rain-overlay {
+    width: 25%;
+  }
+
+  .sun-animation {
+    width: 50%;
+    top: 10%;
+    right: 5%;
+  }
+
+  .lightning-animation {
+    width: 80%;
+    top: 75%;
+  }
+}
